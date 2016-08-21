@@ -1,0 +1,76 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    @*<link href="~/Content/SiteContent/bootstrap.min.css" rel="stylesheet" />*@
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="~/Content/CuisinePage.css" rel="stylesheet" type="text/css" />
+    <script src="~/Content/SiteContent/jquery.min.js"></script>
+    <script src="~/Content/SiteContent/bootstrap.min.js"></script>
+    <link href="~/Content/SiteContent/font-Arizonia.css" rel="stylesheet" />
+    <link href="~/Content/SiteContent/font-Niconne.css" rel="stylesheet" />
+    <link href="~/Content/SiteContent/font-Oxygen.css" rel="stylesheet" />
+</head>
+<body>
+
+    <header>
+        <div class="fixed-nav-bar">
+            <nav class="navbar navbar-inverse">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="~/Home/Index">Canberra Restaurants</a>
+                    </div>
+
+                    <div class="collapse navbar-collapse" id="myNavbar">
+                        <ul class="nav navbar-nav">
+                            <li class='@(Session["Menu"] == "Restaurants" ? "active" : "")'><a href="~/Home/Restaurants">Restaurants</a></li>
+                            <li class='@(Session["Menu"] == "Cuisine" ? "active" : "")'><a href="~/Home/Cuisine">Cuisine</a></li>
+                            <li class='@(Session["Menu"] == "Dishes" ? "active" : "")'><a href="~/Home/Dishes">Dishes</a></li>
+                            <li class='@(Session["Menu"] == "Price" ? "active" : "")'><a href="~/Home/Price">Prices</a></li>
+                            <li class='@(Session["Menu"] == "Location" ? "active" : "")'><a href="~/Home/Location">Location</a></li>
+                            <li class='@(Session["Menu"] == "Reviews" ? "active" : "")'><a href="~/Home/Reviews">Reviews</a></li>
+                        </ul>
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="#">Register</a></li>
+                            <li><a href="#">Login</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div id="main_div">
+            @RenderBody()
+
+
+            <footer>
+
+            <div id="last_div">
+                <div class="container-fluid">
+                    <div id="bottom_line"></div>
+                    <p id="footer01">&copy;2016-Canberra Restaurants by Sameer</p>
+                </div>
+                </div>
+            </footer>
+        </div>
+
+    </main>
+
+
+    @Scripts.Render("~/bundles/jquery")
+    @RenderSection("scripts", required: false)
+</body>
+</html>
