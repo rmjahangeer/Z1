@@ -171,23 +171,17 @@ a.alink:hover {
 }
 
 #white_div_01 {
-    padding-left: 150px;
+    /*padding-left: 150px;*/
     padding-bottom: 50px;
     padding-top: 70px;
-    width: 50%;
-    float: left;
 }
 
 #white_div_02 {
-    width: 15%;
-    float: left;
     padding-bottom: 50px;
     padding-top: 70px;
 }
 
 #white_div_03 {
-    width: 30%;
-    float: left;
     padding-bottom: 50px;
     padding-top: 70px;
 }
