@@ -1,4 +1,9 @@
-﻿
+﻿@{
+    Session["Menu"] = "Home";
+    ViewBag.Title = "Home";
+}
+
+<link href="~/Content/HomePage.css" rel="stylesheet" />
 <div id="outer">
     <a href="~/Home/Index">
         <div id="inner">
@@ -6,11 +11,12 @@
             <p id="p11">RESTAURANTS</p>
         </div>
     </a>
+    <div class="text-banner">
+        <p id="p3">"A restaurant is a fantasy-a kind of living fantasy in which diners are the most important members of the cast"</p>
+        <p id="p2">Warner LeRoy</p>
+    </div>
 </div>
-<div class="text-banner">
-    <p id="p2">"A restaurant is a fantasy-a kind of living fantasy in which diners are the most important members of the cast"</p>
-    <p id="p3">Warner LeRoy</p>
-</div>
+
 
 <section>
     <div id="white_div">
