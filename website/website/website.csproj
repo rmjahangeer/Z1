@@ -199,6 +199,7 @@
     <Content Include="Content\themes\base\minified\jquery.ui.theme.min.css" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <None Include="Properties\PublishProfiles\Canberra.pubxml" />
     <None Include="Scripts\jquery-1.7.1.intellisense.js" />
     <Content Include="images\burger.jpeg" />
     <Content Include="images\carousel\bluginger_car.jpg" />

@@ -3,8 +3,7 @@
 }
 
 
-#p1{
-
+#p1 {
     line-height: 80%;
     font-family: 'Oxygen', sans-serif;
     font-weight: 400;
@@ -14,7 +13,7 @@
 }
 
 
-#p11{
+#p11 {
     font-family: 'Oxygen', sans-serif;
     font-weight: 400;
     letter-spacing: 5px;
@@ -25,209 +24,209 @@
 
 .text-banner {
     padding: 120px 0px 200px;
-    background-color:transparent;
-    height:200px;
+    background-color: transparent;
+    height: 200px;
 }
 
-#p2{
+#p2 {
     /*padding-top:190px;*/
     line-height: 0;
-    font-family: 'Lato', sans-serif;  color: #ffffff;
-    font-size:16px;
+    font-family: 'Lato', sans-serif;
+    color: #ffffff;
+    font-size: 16px;
     text-align: center;
 }
 
 .navbar {
-      margin-bottom: 0;
-      border-radius: 0;
-      
-    }
-    
-    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
-    .row.content {height: 450px}
-    
-    /* Set gray background color and 100% height */
+    margin-bottom: 0;
+    border-radius: 0;
+}
+
+/* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+.row.content {
+    height: 450px;
+}
+
+/* Set gray background color and 100% height */
+.sidenav {
+    padding-top: 20px;
+    background-color: #ffffff;
+    height: 100%;
+}
+
+/* On small screens, set height to 'auto' for sidenav and grid */
+@media screen and (max-width: 767px) {
     .sidenav {
-      padding-top: 20px;
-      background-color: #ffffff;
-      height: 100%;
-    }
-    
-    /* On small screens, set height to 'auto' for sidenav and grid */
-    @media screen and (max-width: 767px) {
-      .sidenav {
         height: auto;
         padding: 10px;
-      }
-      .row.content {height:auto;}
     }
 
+    .row.content {
+        height: auto;
+    }
+}
 
-#p3{
+
+#p3 {
     line-height: 80%;
-    font-family: 'Niconne', cursive; 
+    font-family: 'Niconne', cursive;
     color: #f8bd08;
-    font-size:60px;
+    font-size: 60px;
     text-align: center;
 }
 
 
-#p4{
+#p4 {
     line-height: 80%;
-    font-family: 'Niconne', cursive; color: #f8bd08;
-    font-size:40px;
+    font-family: 'Niconne', cursive;
+    color: #f8bd08;
+    font-size: 40px;
     text-align: left;
 }
 
-.p5{
+.p5 {
     font-family: 'Oxygen', sans-serif;
-    letter-spacing:5px;
-    color :black;
-    font-size:16px;
-
+    letter-spacing: 5px;
+    color: black;
+    font-size: 16px;
 }
 
-.p6{
-    font-family: 'Lato', sans-serif; 
-    font-size : 14px;
-    color :black;
-
+.p6 {
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    color: black;
 }
 
-#white_div{
-    width : 100%;
-    background-color:white;
-    height : 300px;
+#white_div {
+    width: 100%;
+    background-color: white;
+    height: 300px;
     /*margin-top:150px;*/
-
 }
 
-#white_div_01{
+#white_div_01 {
     /*padding-left:150px;
     padding-bottom:50px;
     padding-top:50px;*/
-    width:50%;
-    float:left;
+    width: 50%;
+    float: left;
     padding: 50px 0px;
-    padding-left:100px;
+    padding-left: 100px;
 }
 
-#white_div_02{
-
-    width:15%;float:left;padding-bottom:50px;padding-top:70px;
+#white_div_02 {
+    width: 15%;
+    float: left;
+    padding-bottom: 50px;
+    padding-top: 70px;
 }
 
-#white_div_03{
-
-    width:30%;float:left;padding-bottom:50px;padding-top:70px;
+#white_div_03 {
+    width: 30%;
+    float: left;
+    padding-bottom: 50px;
+    padding-top: 70px;
 }
 
-#below_white_div{
-    padding-top:50px;
-    width:100%;
-    padding-left:20px;
-    padding-right:20px;
-    padding-bottom:50px;
-    height:300px;
+#below_white_div {
+    padding-top: 50px;
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 50px;
+    height: 300px;
     background-image: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ),url('.././images/restaurant_3.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.below_white_div_01{
-    padding-left:5px;
-    padding-right:5px;
+.below_white_div_01 {
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
-.heading{
-
-    font-family: 'Niconne', cursive; color: #f8bd08;
-    font-size:40px;
+.heading {
+    font-family: 'Niconne', cursive;
+    color: #f8bd08;
+    font-size: 40px;
     text-align: center;
-
 }
 
-.sub-heading{
-
-    font-family: 'Lato', sans-serif; 
-    font-size :  14px;
-    color :white;
-
+.sub-heading {
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    color: white;
 }
 
-#review_div{
-
-    background-color:white;
-    width:100%;
-    height:300px;
+#review_div {
+    background-color: white;
+    width: 100%;
+    height: 300px;
 }
 
-#review_div_01{
-    
-    width:25%;float:left;padding-bottom:50px;padding-top:70px; padding-left:150px;padding-right:50px;
+#review_div_01 {
+    padding-bottom: 50px;
+    padding-top: 70px;
+    padding-left: 150px;
+    padding-right: 50px;
 }
 
-#review_div_02{
-
-    width:15%;float:left;padding-bottom:50px;padding-top:70px;padding-left:50px;padding-right:50px;
+#review_div_02 {
+    padding-bottom: 50px;
+    padding-top: 70px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
-#review_div_03{
-
-    padding-left:40px;
-    padding-right:150px;
-    padding-bottom:50px;
-    padding-top:50px;
-    width:60%;
-    float:left;
-
+#review_div_03 {
+    padding-left: 40px;
+    padding-right: 150px;
+    padding-bottom: 50px;
+    padding-top: 50px;
 }
 
 
-#below_review_div{
-
-    background-color:white;
-    width:100%;
-    height:600px;
-
+#below_review_div {
+    background-color: white;
+    width: 100%;
+    height: 600px;
 }
 
-#hr_div_01{
-    width:100%;
-    height:5px;
-    background-color:#f8bd08;
+#hr_div_01 {
+    width: 100%;
+    height: 5px;
+    background-color: #f8bd08;
 }
 
-#hr_div_02{
-    width:100%;
-    height:5px;
-    background-color:#f8bd08;
-    margin-top:3px;
+#hr_div_02 {
+    width: 100%;
+    height: 5px;
+    background-color: #f8bd08;
+    margin-top: 3px;
 }
 
 
 
-    #last_div{
-        padding-top:30px;
-        height:70px;
-        width:100%;
-        background-color:white;
-    }
+#last_div {
+    padding-top: 30px;
+    height: 70px;
+    width: 100%;
+    background-color: white;
+}
 
-    #bottom_line{
-        border:1px solid lightblue;
-        width:100%;
-        height:1px;
-    }
-    #footer01 {
-    text-align:left;
-    font-family: 'Lato', sans-serif; 
-    font-size :  10px;
-    color :gray;
-    padding-left:3px;
-    background-color:white;
-    padding-top:5px;
-    }
+#bottom_line {
+    border: 1px solid lightblue;
+    width: 100%;
+    height: 1px;
+}
 
-    
+#footer01 {
+    text-align: left;
+    font-family: 'Lato', sans-serif;
+    font-size: 10px;
+    color: gray;
+    padding-left: 3px;
+    background-color: white;
+    padding-top: 5px;
+}
