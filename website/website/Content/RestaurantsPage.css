@@ -117,7 +117,7 @@
 
 .black_border_divv {
     /*border: 3px solid black;*/
-    height: 200px;
+    
     background-color: white;
     /*padding-left:140px;
     padding-right:140px;
@@ -131,13 +131,13 @@
 
 .black_border_div {
     border: solid black;
-    height: 200px;
     background-color: white;
     /*padding-left:140px;
     padding-right:140px;
     padding-top:30px;
     padding-bottom:30px;*/
-    padding: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     margin-top: 20px;
 }
 
